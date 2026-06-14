@@ -8,7 +8,7 @@ public class TCMANUAL001Steps {
     // Traceability: TC_MANUAL_001
     // Replace generated method bodies with calls to page objects, API clients, or DB helpers.
 
-    // Recorded Playwright evidence from: .tsg-runs\20260614-175522\recordings\TC_UI_LOGIN_001\playwright-codegen.java
+    // Recorded Playwright evidence from: .tsg-runs\20260614-175919\recordings\TC_UI_BIGBASKET_LOGIN_001\playwright-codegen.java
     // Move stable interactions into page objects before merging.
 
     @Given("Log in as a valid customer.")
@@ -57,8 +57,8 @@ public class TCMANUAL001Steps {
      *       Page page = context.newPage();
      *       page.navigate("https://www.bigbasket.com/");
      *       page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Login/ Sign Up")).click();
-     *       page.getByText("Enter Phone number/ Email Id").click();
      *       page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("Enter Phone number/ Email Id")).fill("1234567890");
+     *       page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Continue")).click();
      *       page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Continue")).click();
      *       page.close();
      *     }
